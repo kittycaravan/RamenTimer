@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <script src="test.js"></script>
+</head>
+<body>
+    <!-- 시계-입력 -->
+    <p>
+        <select id="select_minute">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4" selected>4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select> 분
+    </p>    
+    <p>
+        <select id="select_second">
+            <option value="0">0</option>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30" selected>30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+        </select> 초
+    </p>
+
+    <button id="btn_timer_start" onclick="clickBtnTimerStart()">타이머 시작!</button>
+    <!-- 시계-표시 -->
+    <p><span id="span_m"></span> 분</p>    
+    <p><span id="span_s"></span> 초</p>
+
+    <button id="btn_timer_stop" onclick="clickBtnTimerStop()">시간 멈춰!</button>
+</body>
+</html>

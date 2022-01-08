@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>    
+    <link rel="stylesheet" href="main.css">
+    <script src="display.js"> </script>
+    <script src="Monster.js"> </script>
+    <script src="Npc.js"> </script>
+    <script src="npc_speech.js"> </script>
+    <script src="Character.js"> </script>
+    <script src="Room.js"> </script>
+    <script src="functions.js"> </script>
+    <script src="main.js"> </script>
+
+</head>
+<body>
+    <div id="main_area">
+        <p id="version">RPG v0.30.0</p>
+        <textarea id="screen_message_box" readonly="readonly"></textarea>
+        <div id="screen_game_object_new"></div>
+        <div id="screen_game_object_npcs"></div><!-- npc 들 출력 화면 -->
+        <div id="div_commands">
+            <input type="button" value="턴 진행" onclick="turn();">            
+            <input type="button" value="동" onclick="move('동');">
+            <input type="button" value="서" onclick="move('서');">
+            <input type="button" value="남" onclick="move('남');">
+            <input type="button" value="북" onclick="move('북');">
+            <input type="button" value="위" onclick="move('위');">
+            <input type="button" value="밑" onclick="move('밑');">
+        </div>
+        <div id="div_current_turn">현재 턴 : <input id="input_txt_turn" value="1" readonly="readonly"></div>
+        <div id="div_exp"></div>
+        <textarea id="screen_player_info" readonly="readonly"></textarea>
+    </div>
+</body>
+</html>

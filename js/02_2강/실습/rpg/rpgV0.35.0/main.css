@@ -1,0 +1,129 @@
+body {
+    /* background-image: url(bg.jpg); */
+    position: relative;
+    z-index: 1;
+
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+body:after{
+    background-image: url(bg.jpg);
+    top:0px;
+    left:0px;
+    position: absolute;
+    /* background-size: 100%; */
+    opacity: 0.9!important;
+    filter: alpha(opacity=90);
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+#version {
+    color: gold;
+    font-weight: bold;
+    text-align: center;
+}
+#main_area {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 창 - 메세지 */
+#screen_message_box {
+    width: 800px;
+    height: 500px;
+    background-color: pink;
+}
+/* 창 - 유저 */
+#screen_player_info {
+    width: 800px;
+    height: 160px;
+    background-color: rgb(143, 179, 194);
+}
+#input_txt_turn {
+    background-color: pink;
+    width: 50px;
+    text-align: right;
+}
+#screen_game_object_new{
+    background-color: rgb(99, 194, 150);
+    width: 800px;
+    height: 60px;
+    padding-top: 5px;
+}
+#screen_game_object_npcs{
+    background-color: pink;
+    width: 800px;
+    height: 40px;
+    padding-top: 5px;
+}
+#div_exp{
+    background-color: rgb(68, 114, 92);
+    width: 800px;
+    height: 22px;
+    text-align: center;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.monsters_hostile {
+    background-color: rgb(192, 65, 65);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+.monsters_none {
+    background-color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+#div_current_turn {
+    background-color: cadetblue;
+    text-align: right;
+}
+#div_commands {
+    background-color: aquamarine;
+}
+.npcs {
+    background-color: rgb(192, 74, 153);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;   
+}
+/* 창 - 골드 */
+#div_user_info_bot {
+    background-color: green;
+    height: 20px;
+    color: black;
+    text-align: right;
+    position: relative;
+}
+#span_gold {
+    background-color: gold;
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    color: black;
+}
+#div_bag {    
+    display: none;
+    float: right;
+    position: absolute;
+    bottom:28px;
+    right:106px;
+    width:200px;
+    height:300px;
+    background-color: pink;    
+    border: 1px solid black;
+    text-align: left;
+}
+.bag_item {
+    background-color: violet;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;       
+    margin-right: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+}

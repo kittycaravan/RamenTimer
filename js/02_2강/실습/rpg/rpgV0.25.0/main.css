@@ -1,0 +1,38 @@
+#screen_game_object {
+    width: 800px;
+    height: 50px;
+    background-color: rgb(99, 194, 150);
+}
+#screen_message_box {
+    width: 800px;
+    height: 500px;
+    background-color: pink;
+}
+#screen_player_info {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(143, 179, 194);
+}
+#input_txt_turn {
+    background-color: pink;
+    width: 50px;
+    text-align: right;
+}
+#screen_game_object_new{
+    background-color: rgb(99, 194, 150);
+    width: 800px;
+    height: 100px;
+    padding-top: 5px;
+}
+.monsters_hostile {
+    background-color: rgb(192, 65, 65);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}
+.monsters_none {
+    background-color: gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+}

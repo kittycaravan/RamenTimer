@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>    
+    <link rel="stylesheet" href="main.css">
+    <script src="common.js"> </script>
+    <script src="Monster.js"> </script>
+    <script src="Character.js"> </script>
+    <script src="Room.js"> </script>
+    <script src="functions.js"> </script>
+    <script src="main.js"> </script>
+
+</head>
+<body>
+    <textarea id="screen_game_object" readonly="readonly"></textarea>
+    <textarea id="screen_message_box" readonly="readonly"></textarea>
+    <textarea id="screen_player_info" readonly="readonly"></textarea>
+    <br>    
+    <input id="input_txt_turn" value="1" readonly="readonly"><input type="button" value="턴 진행" onclick="turn();">
+
+    <input type="button" value="동" onclick="moveEast();">
+    <input type="button" value="서" onclick="moveWest();">
+    <input type="button" value="남" onclick="moveSouth();">
+    <input type="button" value="북" onclick="moveNorth();">
+    <input type="button" value="위" onclick="moveUp();">
+    <input type="button" value="밑" onclick="moveDown();">
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="common_functions.js"></script>
+    <script src="data_zone.js"></script>
+    <script src="data_player.js"></script>
+    <script src="index.js"></script>    
+    <!-- <script src="test.js"></script> -->
+</head>
+<body>
+    <div id="myLayout">
+        <div id="top">
+            <h1>Eternal Fantasy</h1>
+        </div>
+        <div id="main_area">
+            
+
+        </div>
+        <div id="bot">
+            <div id="bot_heath_point">
+
+            </div>
+            <div id="bot_input_window">
+                <!-- <form> -->
+                    <!-- <input type="text" onkeyup="if(window.event.keyCode==13){(함수명()}"/> -->
+                    <!-- <input id="input_command" type="text" length="40" onkeyup="test()"> -->
+                    <!-- <input id="input_command" type="text" length="40" onkeyup="if(window.event.keyCode==13){commandEnter();}"> -->
+                <input id="input_command" type="text" length="40" onkeyup="if(window.event.keyCode==13){commandEnter()}">
+                <input id="input_btn" type="button" value="입력" onclick="commandBtnClick()">
+                
+                <!-- </form> -->
+
+            </div>
+            <div id="bot_mana_point">
+
+            </div>            
+        </div>
+    </div>       
+</body>
+</html>

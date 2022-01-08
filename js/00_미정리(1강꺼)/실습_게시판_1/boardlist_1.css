@@ -1,0 +1,104 @@
+#all{
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top{
+    background-color: red;
+    width: 800px;
+    height: 100px;
+}
+#left{
+    background-color: orange;
+    width: 100px;
+    height: 1600px;
+    float: left;
+}
+#mid{
+    background-color: yellow;
+    width: 600px;
+    height: 1600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+    #div_board_title{
+        background-color: #81ca72;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #div_board_top{
+        background-color: #38aaa4cc;
+        width: 600px;
+        height: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+        .board_con_no{
+            background-color: rgb(214, 138, 138);
+            width: 50px;
+            height: 20px;            
+            text-align: center;
+            float: left;
+        }
+        .board_con_title{
+            background-color: rgb(209, 166, 86);
+            width: 400px;
+            height: 20px;            
+            text-align: center;
+            float: left;
+        }
+        .board_con_writer{
+            background-color: rgb(106, 214, 106);
+            width: 50px;
+            height: 20px;            
+            text-align: center;
+            float: left;
+        }
+        .board_con_hits{
+            background-color: rgb(128, 128, 201);
+            width: 50px;
+            height: 20px;      
+            text-align: center;      
+            float: left;
+        }
+        .board_con_recommend{
+            background-color: rgb(211, 133, 146);
+            width: 50px;
+            height: 20px;      
+            text-align: center;      
+            float: left;
+        }
+        .board_post_list{
+            background-color: pink;
+        }
+        .board_con_list_bot_line{
+            background-color: gray;
+            width: 600px;
+            height: 2px;
+            clear: left;
+        }
+        .board_con_post{
+            background-color: rgb(123, 209, 173);
+            width: 600px;
+            height: 400px;
+        }
+        #board_con_post_1{
+            display: none;
+        }
+        #board_con_post_2{
+            display: none;
+        }
+        #board_con_post_3{
+            display: none;
+        }
+        #div_board_bot{
+            background-color: #bba1cf;
+            width: 600px;
+            height: 20px;
+            text-align: center;
+        }

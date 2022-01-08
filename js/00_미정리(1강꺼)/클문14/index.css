@@ -1,0 +1,61 @@
+body{
+    background-color: cornflowerblue;
+}
+
+#top{
+    background-color: red;
+    width:800px;
+    height:100px;
+}
+#left{
+    background-color: orange;
+    width:100px;
+    height:1000px;
+    float:left;
+}
+#mid{
+    background-color: yellow;
+    width:700px;
+    height:1000px;
+    float:left;
+}
+    #table{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        border: 2px solid gray;
+    }
+    tr, td{
+        border: 2px solid green;
+    }
+    .td1{
+        width:100px;
+    }
+    .td2{
+        width:auto;
+        padding-left: 20px;
+    }
+    #table_bot{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+.ip{
+    width:200px;
+    display:block;
+}
+.ip_birth1{
+    width:60px;
+}
+.ip_birth2{
+    width:50px;
+}
+.ip_tel1{
+    width:40px;
+}
+.ip_tel2{
+    width:50px;
+}

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "EternalFantasy",
+			"path": "js\\EternalFantasy\\EternalFantasy"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"java/h7/src",
+			"java/h10/src"
+		]
+	}
+}

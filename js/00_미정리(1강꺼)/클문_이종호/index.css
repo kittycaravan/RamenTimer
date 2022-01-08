@@ -1,0 +1,60 @@
+body {
+    background-color: gray;
+}
+
+#layout {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top {
+    background-color: red;
+    height: 100px;
+}
+
+#left {
+    background-color: orange;
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+
+#center {
+    background-color: yellow;
+    width: 800px;
+    height: 600px;
+    float: left;
+    text-align: center;
+}
+
+#title {
+    color: lime;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#table, tr, td {
+    border: 2px solid lime;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit_btn {
+    margin-top: 10px;
+}
+
+#right {
+    background-color: green;
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+
+#bottom {
+    background-color: blue;
+    height: 100px;
+    clear: left;
+}

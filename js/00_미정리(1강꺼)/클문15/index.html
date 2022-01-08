@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="com.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="top"></div>
+    <div id="left"></div>
+    <div id="mid">
+        <h1>회원가입</h1>
+        <form action="#" method="GET" id="form">
+            <table id="table">
+                <tr class="tr">
+                    <td class="td1">
+                        <label for="id">아이디</label>
+                    </td>
+                    <td class="td2">
+                        <input class="ip" type="text" id="id" minlength="6" maxlength="12" required placeholder="(6자리이상,12자리이하)">
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">
+                        <label for="pw">암호</label>
+                    </td>
+                    <td class="td2">
+                        <input class="ip" type="password" id="pw" minlength="6" maxlength="15" required placeholder="(6자리이상,15자리이하)">
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">
+                        <label for="pw_re">암호 재입력</label>
+                    </td>
+                    <td class="td2">
+                        <input class="ip" type="password" id="pw_re" minlength="6" maxlength="15" required placeholder="(6자리이상,15자리이하)">
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">                    
+                        
+                        <label for="name">이름</label>
+                    </td>
+                    <td class="td2">
+                        <input class="ip" type="text" id="name" minlength="2" maxlength="20" required>
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">                    
+                        <label for="email">이메일</label>
+                    </td>
+                    <td class="td2">
+                        <input class="ip" type="email" id="email" minlength="10" maxlength="20" required>
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">
+                        <label for="birth_y">생년월일</label>
+                    </td>                
+                    <td class="td2">                    
+                        <input class="ip_birth1" type="number" id="birth_y" value="1979" minlength="4" maxlength="4" required>
+
+                        <select class="ip_birth2" id="birth_m">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>                        
+
+                        <select class="ip_birth2" id="birth_d">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>                        
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">
+                        <h4>성별</h4>                    
+                    </td>                
+                    <td class="td2">                    
+                        <input type="radio" name="sex" value="M">남성
+                        <input type="radio" name="sex" value="G" checked>여성
+                    </td>
+                </tr>
+                <tr class="tr">
+                    <td class="td1">
+                        <label for="tel1">전화번호</label>
+                    </td>                
+                    <td class="td2">        
+                        <!-- <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" />             -->
+                        <input class="ip_tel1" type="tel" id="tel_1" minlength="3" maxlength="3" value="010" required> -
+                        <input class="ip_tel2" type="tel" id="tel_2" minlength="4" maxlength="4" required> -
+                        <input class="ip_tel2" type="tel" id="tel_3" minlength="4" maxlength="4" required>
+                    </td>
+                </tr>                                
+            </table>        
+            <div id="table_bot">
+                <input id="submit" type="submit" value="회원가입">
+                <input type="reset" value="다지우기">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
