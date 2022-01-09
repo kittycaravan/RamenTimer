@@ -18,6 +18,8 @@ var second=0;
 /* 입력된 분, 초로 계산하여 초로 환산한 값 */
 var totalSecond=0;
 
+var audioAlarm = new Audio("방사능 위험 알람소리.mp3");
+
 window.onload = function(){
     selectMinute = document.getElementById("select_minute");
     selectSecond = document.getElementById("select_second");
@@ -45,6 +47,7 @@ function secondMinus(){
     if(totalSecond <= 0){
         clearInterval(interval);    // 타이머 시간이 다 끝났으므로 clearInterval 처리
         document.write("<h1>야옹아 라면 불 꺼!!!</h1>");
+        audioAlarm.play();
     }
 }
 /* 시간 멈춰 버튼을 누르면 이 함수 실행 */
