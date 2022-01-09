@@ -5,7 +5,8 @@
     
 var interval;
 /* 태그 요소들 */
-var selectMinute;    //select_minute
+var selectMinuteTen;    //select_minute
+var selectMinuteOne;    //select_minute
 var selectSecond;    //select_second
 var btnTimerStart; //btn_timer_start
 var btnTimerStop; //btn_timer_stop
@@ -21,7 +22,8 @@ var totalSecond=0;
 var audioAlarm = new Audio("방사능 위험 알람소리.mp3");
 
 window.onload = function(){
-    selectMinute = document.getElementById("select_minute");
+    selectMinuteTen = document.getElementById("select_minute_10");
+    selectMinuteOne = document.getElementById("select_minute_1");
     selectSecond = document.getElementById("select_second");
     btnTimerStart = document.getElementById("btn_timer_start");
     btnTimerStop = document.getElementById("btn_timer_stop");
@@ -32,7 +34,10 @@ window.onload = function(){
 /* 타이머 시작 버튼을 누르면 이 함수 실행 */
 function clickBtnTimerStart(){
     // 시간계산
-    minute = parseInt(selectMinute.value);
+    var minute10 = parseInt(selectMinuteTen.value);
+    var minute1 = parseInt(selectMinuteOne.value);
+    minute = minute10 * 10 + minute1;
+
     second = parseInt(selectSecond.value);
     totalSecond = minute * 60 + second;
     printTime();
